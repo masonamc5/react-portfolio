@@ -1,0 +1,36 @@
+
+
+header {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    text-align: left; 
+    padding: 1rem;
+    background-color: #3D3B40;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
+  }
+  
+  h1 {
+    font-family: (Arial, Helvetica, sans-serif);
+    font-weight: 100;
+    font-stretch: semi-expanded;
+    margin: 0;
+    padding-right: 1rem; 
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      padding: 0.5rem;
+    }
+  
+    h1 {
+      font-size: 1.2rem; 
+    }
+  }
