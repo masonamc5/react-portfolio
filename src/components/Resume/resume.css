@@ -1,0 +1,76 @@
+.resume-container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  .skills-section {
+    display: flex;
+    justify-content: center; 
+    margin: 0 auto; 
+    width: 100%;
+    max-width: 800px; 
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.1); 
+    padding: 2rem; 
+    border-radius: 8px; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5); 
+    margin-top: 20px; 
+    margin-bottom: 20px;
+  }
+  
+  
+  .skills-column {
+    width: 30%;
+  }
+  
+  .skills-column h2 {
+    margin-bottom: 15px;
+    text-align: left;
+    font-size:xx-large
+  }
+  
+  ul {
+    text-align: left;
+    list-style-type: none;
+  }
+  
+  .skills-section ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .skills-section ul li:before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #000000; 
+  }
+  
+  
+ 
+  @media (max-width: 768px) {
+    .skills-section {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .skills-column {
+      width: 80%; 
+      margin-bottom: 20px; 
+    }
+  
+    
+    .skills-column:last-child {
+      margin-bottom: 0; 
+    }
+    
+  .download-btn {
+    margin-top: 1rem; 
+    margin-bottom: 7rem; 
+  }
+}
