@@ -1,0 +1,49 @@
+[
+    {
+      "id": 1,
+      "title": "Weather App",
+      "description": " This is a weather app that allows the user to search for the current weather in a city. The user can enter a city name and view the current temperature, weather conditions, and wind speed. The user can also view a 5-day forecast for the city. The app uses the OpenWeatherMap API to get the weather data.",
+      "imageUrl": "/assets/weather.png",
+      "githubUrl": "https://github.com/masonamc5/mod-6-weather-chall"
+    },
+  
+    {
+    "id": 2,
+    "title": "Work Day Scheduler",
+    "description": "This is a work day scheduler that allows the user to plan their day by entering tasks for each hour of the day. The user can enter a task for each hour and save the task to local storage. ",
+    "imageUrl": "/assets/5.png",
+    "githubUrl": "https://github.com/masonamc5/workday-plan-mod-5"
+  },
+  
+  {
+    "id": 3,
+    "title": "Google Books Search",
+    "description": "This is a Google Books search app that allows the user to search for books using the Google Books API. The user can enter a search term and view a list of books that match the search term. The user can then view more information about a book, including the title, author, description, and image. The user can also save a book to their reading list. ",
+    "imageUrl": "/assets/book.png",
+    "githubUrl": "https://github.com/masonamc5/mod-21-graphql"
+  },
+  
+    {
+      "id": 4,
+      "title": "Eccomerce Portal",
+      "description": "This is a Admin Portal for an eccomerce website. The portal allows the user to manage products, categories, and orders. The user can add, edit, and delete products and categories, as well as view and update orders.",
+      "imageUrl": "/assets/2.png",
+      "githubUrl": "https://github.com/ryandarton/the-green-hill-ecommerce-admin-portal"
+    },
+    
+    {
+      "id": 5,
+      "title": "SVG Logo Maker",
+      "description": "This is a simple SVG logo maker that allows the user to create a logo using SVG elements. The user can choose the size and color of the logo, as well as the type of elements to include. The logo is generated dynamically and displayed on the screen. The user can then download the logo as an SVG file.",
+      "imageUrl": "/assets/3.png",
+      "githubUrl": "https://github.com/masonamc5/mod-10-oop-chal"
+    },
+  
+    {
+      "id": 6,
+      "title": "Password Generator",
+      "description": "This is a password generator that allows the user to select the length of the password and the type of characters to include. The user can choose to include uppercase letters, lowercase letters, numbers, and special characters. The password is generated randomly and displayed on the screen. The user can then copy the password.",
+      "imageUrl": "/assets/1.png",
+      "githubUrl": "https://github.com/masonamc5/randomgen-mod-03"
+    }
+  ]
